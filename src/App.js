@@ -1,6 +1,10 @@
+import CardAmount from "./CardAmount"
+import Number from "./Number"
+
 const App=()=>
 {
     return(
+        <div>
         <div className="card">
 
             <div className="container">
@@ -38,6 +42,13 @@ const App=()=>
                <h4><b>Chirag Bansal</b></h4>
 <p>GitHub Username: chiragbansal10</p>
 <p>Current Company: TCS</p>
+            </div>
+            </div>
+<div className="number">
+            <Number></Number></div>
+            <div className="cardAmount">
+<CardAmount></CardAmount>
+
             </div>
         </div>
     )
